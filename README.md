@@ -47,7 +47,7 @@ After training, the model weights will be saved at:
 ## Evaluating the Model
 Once trained, evaluate the model using:
 ```sh
-python eval_model.py --model_path ./runs/detect/train/weights/best.pt --test_path path/to/test/images
+python eval_model.py --model_path ./runs/detect/train/weights/best.pt --test_path ./test/images
 ```
 
 ## How to Use This Model
